@@ -9,6 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FaqComponent } from './faq/faq.component';
 import { HeaderComponent } from './header/header.component';
 import { Feature1Module } from './feature1/feature1.module';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { Feature1Module } from './feature1/feature1.module';
     HomeComponent,
     ContactUsComponent,
     FaqComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,AppRoutingModule,Feature1Module
