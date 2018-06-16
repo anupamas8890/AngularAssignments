@@ -10,10 +10,8 @@ import { OurTeamComponent } from './our-team/our-team.component';
 */
 const routes: Routes=[
 {
-  path: 'feature1',
-  children : [
-    { path: 'our-team', component: OurTeamComponent}
-  ]
+  path:'our-team',
+  component:OurTeamComponent
 }
 ];
 @NgModule({

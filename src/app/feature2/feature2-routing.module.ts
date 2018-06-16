@@ -5,10 +5,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 const routes : Routes=[
   {
-    path:'feature2',
-    children:[
-      { path: 'gallery', component:GalleryComponent}
-    ]
+    path:'gallery',
+    component:GalleryComponent
+    
   }
 ];
 

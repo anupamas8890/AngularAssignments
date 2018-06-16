@@ -23,7 +23,7 @@ import { Feature2Module } from './feature2/feature2.module';
     FooterComponent
   ],
   imports: [
-    BrowserModule,AppRoutingModule,Feature1Module,Feature2Module
+    BrowserModule,AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
