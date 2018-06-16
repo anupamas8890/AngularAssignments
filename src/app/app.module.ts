@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FaqComponent } from './faq/faq.component';
 import { HeaderComponent } from './header/header.component';
+import { Feature1Module } from './feature1/feature1.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    BrowserModule,AppRoutingModule
+    BrowserModule,AppRoutingModule,Feature1Module
   ],
   providers: [],
   bootstrap: [AppComponent]
