@@ -1,0 +1,21 @@
+ul.nav li {
+    padding: 20px;
+}
+
+ul.nav li a {
+    font-size: 25px;
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container-fluid {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+li.active {
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    color: #ffffff;
+}
