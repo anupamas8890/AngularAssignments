@@ -14,7 +14,8 @@ const routes : Routes =[
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'faq', component: FaqComponent },
   {path:'feature1', loadChildren:'./feature1/feature1.module#Feature1Module'},
-  { path: 'feature2', loadChildren:'./feature2/feature2.module#Feature2Module'}
+  { path: 'feature2', loadChildren:'./feature2/feature2.module#Feature2Module'},
+  {path:'contact-us/:id', component:ContactUsComponent}
   
 
   
