@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FaqComponent } from './faq/faq.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FaqComponent } from './faq/faq.component';
     AboutUsComponent,
     HomeComponent,
     ContactUsComponent,
-    FaqComponent
+    FaqComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,AppRoutingModule
