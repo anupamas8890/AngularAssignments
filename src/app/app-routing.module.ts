@@ -8,11 +8,12 @@ import { FaqComponent } from './faq/faq.component';
 
 const routes : Routes =[
   
-  { path:'home', component: HomeComponent},
-  { path:'', component: HomeComponent },
+ { path:'home', component: HomeComponent},
+ { path:'', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'faq', component: FaqComponent }
+  
 
   
 ];

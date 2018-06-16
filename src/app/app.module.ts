@@ -10,6 +10,7 @@ import { FaqComponent } from './faq/faq.component';
 import { HeaderComponent } from './header/header.component';
 import { Feature1Module } from './feature1/feature1.module';
 import { FooterComponent } from './footer/footer.component';
+import { Feature2Module } from './feature2/feature2.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule,AppRoutingModule,Feature1Module
+    BrowserModule,AppRoutingModule,Feature1Module,Feature2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
